@@ -1,0 +1,22 @@
+D:\Samples\Investigation\ASP.NET Core MVC Authentication and Claim Based authorization with Identity\C#\src\ClaimApplication\bin\Debug\netcoreapp1.1\ClaimApplication.deps.json
+D:\Samples\Investigation\ASP.NET Core MVC Authentication and Claim Based authorization with Identity\C#\src\ClaimApplication\bin\Debug\netcoreapp1.1\ClaimApplication.runtimeconfig.json
+D:\Samples\Investigation\ASP.NET Core MVC Authentication and Claim Based authorization with Identity\C#\src\ClaimApplication\bin\Debug\netcoreapp1.1\ClaimApplication.runtimeconfig.dev.json
+D:\Samples\Investigation\ASP.NET Core MVC Authentication and Claim Based authorization with Identity\C#\src\ClaimApplication\bin\Debug\netcoreapp1.1\ClaimApplication.dll
+D:\Samples\Investigation\ASP.NET Core MVC Authentication and Claim Based authorization with Identity\C#\src\ClaimApplication\bin\Debug\netcoreapp1.1\ClaimApplication.pdb
+D:\Samples\Investigation\ASP.NET Core MVC Authentication and Claim Based authorization with Identity\C#\src\ClaimApplication\obj\Debug\netcoreapp1.1\ClaimApplication.csprojResolveAssemblyReference.cache
+D:\Samples\Investigation\ASP.NET Core MVC Authentication and Claim Based authorization with Identity\C#\src\ClaimApplication\obj\Debug\netcoreapp1.1\ClaimApplication.csproj.CoreCompileInputs.cache
+D:\Samples\Investigation\ASP.NET Core MVC Authentication and Claim Based authorization with Identity\C#\src\ClaimApplication\obj\Debug\netcoreapp1.1\ClaimApplication.AssemblyInfoInputs.cache
+D:\Samples\Investigation\ASP.NET Core MVC Authentication and Claim Based authorization with Identity\C#\src\ClaimApplication\obj\Debug\netcoreapp1.1\ClaimApplication.AssemblyInfo.cs
+D:\Samples\Investigation\ASP.NET Core MVC Authentication and Claim Based authorization with Identity\C#\src\ClaimApplication\obj\Debug\netcoreapp1.1\ClaimApplication.dll
+D:\Samples\Investigation\ASP.NET Core MVC Authentication and Claim Based authorization with Identity\C#\src\ClaimApplication\obj\Debug\netcoreapp1.1\ClaimApplication.pdb
+C:\Users\bindupriyadarshini.p\source\repos\WEBAPPSample\ClaimApplication\bin\Debug\netcoreapp1.1\ClaimApplication.deps.json
+C:\Users\bindupriyadarshini.p\source\repos\WEBAPPSample\ClaimApplication\bin\Debug\netcoreapp1.1\ClaimApplication.runtimeconfig.json
+C:\Users\bindupriyadarshini.p\source\repos\WEBAPPSample\ClaimApplication\bin\Debug\netcoreapp1.1\ClaimApplication.runtimeconfig.dev.json
+C:\Users\bindupriyadarshini.p\source\repos\WEBAPPSample\ClaimApplication\bin\Debug\netcoreapp1.1\ClaimApplication.dll
+C:\Users\bindupriyadarshini.p\source\repos\WEBAPPSample\ClaimApplication\bin\Debug\netcoreapp1.1\ClaimApplication.pdb
+C:\Users\bindupriyadarshini.p\source\repos\WEBAPPSample\ClaimApplication\obj\Debug\netcoreapp1.1\ClaimApplication.csprojResolveAssemblyReference.cache
+C:\Users\bindupriyadarshini.p\source\repos\WEBAPPSample\ClaimApplication\obj\Debug\netcoreapp1.1\ClaimApplication.csproj.CoreCompileInputs.cache
+C:\Users\bindupriyadarshini.p\source\repos\WEBAPPSample\ClaimApplication\obj\Debug\netcoreapp1.1\ClaimApplication.AssemblyInfoInputs.cache
+C:\Users\bindupriyadarshini.p\source\repos\WEBAPPSample\ClaimApplication\obj\Debug\netcoreapp1.1\ClaimApplication.AssemblyInfo.cs
+C:\Users\bindupriyadarshini.p\source\repos\WEBAPPSample\ClaimApplication\obj\Debug\netcoreapp1.1\ClaimApplication.dll
+C:\Users\bindupriyadarshini.p\source\repos\WEBAPPSample\ClaimApplication\obj\Debug\netcoreapp1.1\ClaimApplication.pdb

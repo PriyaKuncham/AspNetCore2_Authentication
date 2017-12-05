@@ -1,0 +1,67 @@
+﻿@using WEBAPPSample.Security.Authorization.Models.Rentals
+@inject Microsoft.AspNetCore.Authorization.IAuthorizationService authService
+<h2>Forum Listings</h2>
+<table>
+    <thead>
+        <tr>
+            <th>NetForum</th>
+            <th>Blogs</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Angular2</td>
+            <td>CSHTML</td>
+            @*<td><a asp-controller="Rentals" asp-action="Rent">Rent</a></td>*@
+            <td>
+                @if ((await authService.AuthorizeAsync(User, null, "PaidMember")).Succeeded)
+                {
+                    <a asp-controller="Rentals" asp-action="Rent">Rent</a>
+                }
+                else
+                {
+                    <span>Licence (unavailable)</span>
+                }
+            </td>
+        </tr>
+        <tr>
+            <td>Angular4</td>
+            <td>CSHTML</td>
+            @*<td><a asp-controller="Rentals" asp-action="RentOver18">Rent</a></td>*@
+            <td>
+                @if ((await authService.AuthorizeAsync(User, null, "Over18")).Succeeded)
+                {
+                    <a asp-controller="Rentals" asp-action="RentOver18">Rent</a>
+                }
+                else
+                {
+                    <span>Licence (unavailable)</span>
+                }
+            </td>
+        </tr>
+        <tr>
+            <td>Phython</td>
+            <td>PHP</td>
+            @*<td><a asp-controller="Rentals"
+                asp-action="RentNewRelease"
+                asp-route-Title="Despicable Me 3"
+                asp-route-IsNewRelease="true">Rent (new)</a></td>*@
+            <td>
+                @if ((await authService.AuthorizeAsync(User,
+                    new Rental { Title = "Product", IsNewRelease = true },
+                    "CanRentNewRelease")).Succeeded)
+                {
+                    <a asp-controller="Rentals"
+                       asp-action="RentNewRelease"
+                       asp-route-Title="Product"
+                       asp-route-IsNewRelease="true">Licence (new)</a>
+                }
+                else
+                {
+                    <span>Rent (new) (unavailable)</span>
+                }
+            </td>
+        </tr>
+    </tbody>
+</table>
